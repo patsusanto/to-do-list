@@ -1,0 +1,34 @@
+@media (min-width: 1200px) {
+    body {
+        font-family: "Inter", sans-serif;
+    }
+    #myform {
+        background-color: lightgray;
+        max-width: 900px;
+        border-radius: 40px;
+    }
+    #no-task {  
+        color: grey;
+    }
+    #finished-task {
+        color: grey;
+    }
+
+    ul li{
+        background-color: lightgrey;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    ul li button{
+        text-align: right;
+    }
+
+    .btn-outline-danger, .btn-outline-warning, .btn-outline-info {
+        background-color: white; /* White background */
+        color: black;
+        border-width: 2px; /* Ensures border is visible */
+    }
+
+}
